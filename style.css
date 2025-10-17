@@ -268,3 +268,140 @@ span{
     }
 }
 
+/* Estilos generales para secciones informativas */
+.section-title{
+    font-size: 3rem;
+    color: #b74b4b;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+
+/* Descripción secundaria de cada bloque */
+.section-description{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+/* Lista de rutas recomendadas */
+.routes-list{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    word-spacing: 0.4rem;
+}
+
+/* Tabla principal de cursos */
+.courses-table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 2rem;
+}
+
+/* Plantilla de curso reutilizable */
+.course-card{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: left;
+    color: white;
+}
+
+/* Imagen de cada curso */
+.course-image{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 1rem;
+    border: 0.2rem solid #b74b4b;
+}
+
+/* Columnas descriptivas de escuelas */
+.schools-columns{
+    column-count: 3;
+    column-gap: 2rem;
+    column-rule: 0.2rem solid #b74b4b;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/* Tabla corporativa para empresas */
+.enterprise-table{
+    width: 100%;
+    text-align: left;
+    border-spacing: 1rem;
+    font-size: 1.6rem;
+}
+
+.enterprise-table th{
+    color: #b74b4b;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.enterprise-table td{
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+/* Enlace al video destacado */
+.video-link{
+    font-size: 1.4rem;
+    text-align: left;
+    word-spacing: 0.3rem;
+}
+
+.video-link a{
+    color: #b74b4b;
+    text-decoration-line: underline;
+    text-decoration-color: #b74b4b;
+    text-decoration-style: solid;
+}
+
+/* Página de contacto */
+.contact-body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.contact-container{
+    max-width: 480px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.contact-form{
+    display: block;
+    text-align: left;
+    line-height: 2;
+}
+
+.contact-form label{
+    font-weight: 600;
+    color: #b74b4b;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    background-color: transparent;
+    border: 0.2rem solid #b74b4b;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.contact-form button{
+    font-size: 1.6rem;
+    color: black;
+    background-color: #b74b4b;
+    border: 0.2rem solid #b74b4b;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+
+.regresar{
+    display: inline-block;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
