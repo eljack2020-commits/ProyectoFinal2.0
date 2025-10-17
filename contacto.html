@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hoja de estilos independiente para el formulario -->
+    <link rel="stylesheet" href="contact.css">
+    <title>Contacto EDteam</title>
+</head>
+
+<body class="cuerpo-contacto">
+    <!-- Contenedor principal del contenido de contacto -->
+    <main class="contenedor-contacto">
+        <!-- Título del formulario -->
+        <h1>Contáctanos</h1>
+        <!-- Descripción breve del propósito del formulario -->
+        <p>Completa el formulario para recibir información personalizada sobre nuestros cursos.</p>
+        <!-- Formulario básico con campos requeridos -->
+        <form class="formulario-contacto">
+            <!-- Campo para capturar el nombre -->
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <!-- Campo para capturar el correo electrónico -->
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <!-- Campo para escribir el mensaje -->
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <!-- Botón de envío del formulario -->
+            <button type="submit">Enviar mensaje</button>
+        </form>
+        <!-- Enlace para volver a la página principal -->
+        <a href="index.html" class="boton-general boton-regresar">Volver al inicio</a>
+    </main>
+</body>
+
+</html>

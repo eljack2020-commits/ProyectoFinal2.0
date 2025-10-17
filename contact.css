@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+/* Reinicio básico para la página de contacto */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Fondo general oscuro y texto claro */
+body.cuerpo-contacto{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+/* Contenedor central con ancho controlado */
+.contenedor-contacto{
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+    line-height: 1.6;
+}
+
+/* Estilo del texto descriptivo */
+.contenedor-contacto p{
+    margin-top: 1rem;
+    opacity: 0.9;
+}
+
+/* Bloque del formulario para alinear campos */
+.formulario-contacto{
+    display: block;
+    text-align: left;
+    line-height: 2;
+    margin-top: 2rem;
+}
+
+/* Etiquetas resaltadas en rojo */
+.formulario-contacto label{
+    font-weight: 600;
+    color: #b74b4b;
+}
+
+/* Campos de texto y áreas de mensaje */
+.formulario-contacto input,
+.formulario-contacto textarea{
+    width: 100%;
+    background-color: transparent;
+    border: 0.2rem solid #b74b4b;
+    color: white;
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+/* Botón principal del formulario */
+.formulario-contacto button{
+    font-size: 1.6rem;
+    color: black;
+    background-color: #b74b4b;
+    border: 0.2rem solid #b74b4b;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+/* Estilo general reutilizable para enlaces tipo botón */
+.boton-general{
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #b74b4b;
+    border: 0.2rem solid #b74b4b;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    background-color: black;
+    border-radius: 4rem;
+    transition: 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Enlace de retorno con el mismo estilo de botón */
+.boton-general.boton-regresar{
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+/* Animación al pasar el cursor en el enlace de retorno */
+.boton-general.boton-regresar:hover{
+    background-color: #b74b4b;
+    color: black;
+}
+
+/* Ajuste del contenedor en móviles */
+@media(max-width:600px){
+    .contenedor-contacto{
+        padding: 4rem 1.5rem;
+    }
+}
