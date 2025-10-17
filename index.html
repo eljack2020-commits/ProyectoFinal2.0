@@ -10,12 +10,14 @@
 </head>
 
 <body>
-    <!-- Cabecera con navegación principal -->
+    <!-- Cabecera con navegación principal que se muestra solo al inicio -->
     <header>
-        <a href="#inicio" class="logo">EDteam</a>
+        <!-- Logotipo enlazado a la parte superior -->
+        <a href="#inicio" class="logo-edteam">EDteam</a>
 
+        <!-- Menú con accesos internos y enlace al formulario -->
         <nav>
-            <a href="#inicio" class="active">Inicio</a>
+            <a href="#inicio" class="activo">Inicio</a>
             <a href="#cursos">Cursos</a>
             <a href="#rutas">Rutas</a>
             <a href="#escuelas">Escuelas</a>
@@ -25,100 +27,79 @@
     </header>
 
     <!-- Sección principal con animación existente -->
-    <section class="home" id="inicio">
-        <div class="home-img">
+    <section class="seccion-inicio" id="inicio">
+        <!-- Imagen animada de héroe para mantener el estilo original -->
+        <div class="imagen-inicio">
             <img src="main (1).jpg" alt="Equipo de EDteam aprendiendo en línea">
         </div>
-        <div class="home-content">
+        <!-- Contenido textual destacado -->
+        <div class="contenido-inicio">
             <h1>Aprende con <span>EDteam</span></h1>
-            <h3 class="typing-text">Formamos a <span></span></h3>
+            <h3 class="texto-animado">Formamos a <span></span></h3>
             <p>Diseñamos experiencias de aprendizaje enfocadas en programación, tecnología y habilidades digitales. Únete a
                 nuestra comunidad y alcanza tus metas profesionales con rutas claras y mentores especializados.</p>
-            <div class="social-icons">
+            <!-- Enlaces a redes sociales corporativas -->
+            <div class="iconos-sociales">
                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="#"><i class="fa-brands fa-github"></i></a>
                 <a href="#"><i class="fa-brands fa-youtube"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <a href="#cursos" class="btn">Explorar cursos</a>
+            <!-- Botón principal que dirige a los cursos -->
+            <a href="#cursos" class="boton-general">Explorar cursos</a>
             <!-- Enlace a video promocional -->
-            <p class="video-link">Conoce nuestra historia en <a href="https://www.youtube.com/watch?v=4QO5lR9O48Q" target="_blank" rel="noopener">este video</a>.</p>
+            <p class="enlace-video">Conoce nuestra historia en <a href="https://www.youtube.com/watch?v=4QO5lR9O48Q" target="_blank" rel="noopener">este video</a>.</p>
         </div>
     </section>
 
     <!-- Sección de resumen de rutas destacadas con lista -->
-    <section class="highlight" id="rutas">
-        <h2 class="section-title">Rutas recomendadas</h2>
-        <p class="section-description">Construimos caminos de aprendizaje para que avances paso a paso.</p>
-        <ul class="routes-list">
+    <section class="seccion-rutas" id="rutas">
+        <h2 class="titulo-seccion">Rutas recomendadas</h2>
+        <p class="descripcion-seccion">Construimos caminos de aprendizaje para que avances paso a paso.</p>
+        <ul class="lista-rutas">
+            <!-- Elemento destacado para la ruta Full Stack -->
             <li>Ruta Full Stack JavaScript: fundamentos web, Node.js y despliegue profesional.</li>
+            <!-- Elemento destacado para la ruta de datos -->
             <li>Ruta Ciencia de Datos: Python, estadística aplicada y machine learning.</li>
+            <!-- Elemento destacado para la ruta DevOps -->
             <li>Ruta DevOps: integración continua, contenedores y automatización.</li>
         </ul>
     </section>
 
     <!-- Sección de cursos con plantilla repetible usando tabla -->
-    <section class="courses" id="cursos">
-        <h2 class="section-title">Cursos destacados</h2>
-        <p class="section-description">Utiliza esta plantilla para mostrar 12 cursos distribuidos en 3 filas y 4 columnas.</p>
-        <table class="courses-table">
+    <section class="seccion-cursos" id="cursos">
+        <h2 class="titulo-seccion">Cursos destacados</h2>
+        <p class="descripcion-seccion">Utiliza esta plantilla para mostrar 12 cursos distribuidos en 3 filas y 4 columnas.</p>
+        <!-- Tabla principal que organiza los cursos en 3x4 -->
+        <table class="tabla-cursos">
+            <!-- Cuerpo con tarjetas de cursos disponibles -->
             <tbody>
                 <tr>
                     <td>
                         <!-- Plantilla de tarjeta de curso -->
-                        <article class="course-card">
-                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="course-image">
+                        <article class="tarjeta-curso">
+                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="imagen-curso">
                             <h3>Nombre del curso</h3>
                             <p>Descripción breve del contenido, objetivos y nivel recomendado.</p>
                         </article>
                     </td>
                     <td>
-                        <article class="course-card">
-                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="course-image">
+                        <article class="tarjeta-curso">
+                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="imagen-curso">
                             <h3>Nombre del curso</h3>
                             <p>Descripción breve del contenido, objetivos y nivel recomendado.</p>
                         </article>
                     </td>
                     <td>
-                        <article class="course-card">
-                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="course-image">
+                        <article class="tarjeta-curso">
+                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="imagen-curso">
                             <h3>Nombre del curso</h3>
                             <p>Descripción breve del contenido, objetivos y nivel recomendado.</p>
                         </article>
                     </td>
                     <td>
-                        <article class="course-card">
-                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="course-image">
-                            <h3>Nombre del curso</h3>
-                            <p>Descripción breve del contenido, objetivos y nivel recomendado.</p>
-                        </article>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <article class="course-card">
-                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="course-image">
-                            <h3>Nombre del curso</h3>
-                            <p>Descripción breve del contenido, objetivos y nivel recomendado.</p>
-                        </article>
-                    </td>
-                    <td>
-                        <article class="course-card">
-                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="course-image">
-                            <h3>Nombre del curso</h3>
-                            <p>Descripción breve del contenido, objetivos y nivel recomendado.</p>
-                        </article>
-                    </td>
-                    <td>
-                        <article class="course-card">
-                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="course-image">
-                            <h3>Nombre del curso</h3>
-                            <p>Descripción breve del contenido, objetivos y nivel recomendado.</p>
-                        </article>
-                    </td>
-                    <td>
-                        <article class="course-card">
-                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="course-image">
+                        <article class="tarjeta-curso">
+                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="imagen-curso">
                             <h3>Nombre del curso</h3>
                             <p>Descripción breve del contenido, objetivos y nivel recomendado.</p>
                         </article>
@@ -126,29 +107,59 @@
                 </tr>
                 <tr>
                     <td>
-                        <article class="course-card">
-                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="course-image">
+                        <article class="tarjeta-curso">
+                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="imagen-curso">
                             <h3>Nombre del curso</h3>
                             <p>Descripción breve del contenido, objetivos y nivel recomendado.</p>
                         </article>
                     </td>
                     <td>
-                        <article class="course-card">
-                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="course-image">
+                        <article class="tarjeta-curso">
+                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="imagen-curso">
                             <h3>Nombre del curso</h3>
                             <p>Descripción breve del contenido, objetivos y nivel recomendado.</p>
                         </article>
                     </td>
                     <td>
-                        <article class="course-card">
-                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="course-image">
+                        <article class="tarjeta-curso">
+                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="imagen-curso">
                             <h3>Nombre del curso</h3>
                             <p>Descripción breve del contenido, objetivos y nivel recomendado.</p>
                         </article>
                     </td>
                     <td>
-                        <article class="course-card">
-                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="course-image">
+                        <article class="tarjeta-curso">
+                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="imagen-curso">
+                            <h3>Nombre del curso</h3>
+                            <p>Descripción breve del contenido, objetivos y nivel recomendado.</p>
+                        </article>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <article class="tarjeta-curso">
+                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="imagen-curso">
+                            <h3>Nombre del curso</h3>
+                            <p>Descripción breve del contenido, objetivos y nivel recomendado.</p>
+                        </article>
+                    </td>
+                    <td>
+                        <article class="tarjeta-curso">
+                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="imagen-curso">
+                            <h3>Nombre del curso</h3>
+                            <p>Descripción breve del contenido, objetivos y nivel recomendado.</p>
+                        </article>
+                    </td>
+                    <td>
+                        <article class="tarjeta-curso">
+                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="imagen-curso">
+                            <h3>Nombre del curso</h3>
+                            <p>Descripción breve del contenido, objetivos y nivel recomendado.</p>
+                        </article>
+                    </td>
+                    <td>
+                        <article class="tarjeta-curso">
+                            <img src="https://via.placeholder.com/220x140" alt="Miniatura del curso" class="imagen-curso">
                             <h3>Nombre del curso</h3>
                             <p>Descripción breve del contenido, objetivos y nivel recomendado.</p>
                         </article>
@@ -159,21 +170,26 @@
     </section>
 
     <!-- Sección de escuelas con descripción en lista de columnas -->
-    <section class="schools" id="escuelas">
-        <h2 class="section-title">Escuelas</h2>
-        <p class="section-description">Cada escuela agrupa cursos especializados para dominar tecnologías clave.</p>
-        <div class="schools-columns">
+    <section class="seccion-escuelas" id="escuelas">
+        <h2 class="titulo-seccion">Escuelas</h2>
+        <p class="descripcion-seccion">Cada escuela agrupa cursos especializados para dominar tecnologías clave.</p>
+        <div class="columnas-escuelas">
+            <!-- Descripción breve de la escuela de frontend -->
             <p><strong>Escuela de Frontend:</strong> HTML, CSS y frameworks modernos para interfaces atractivas.</p>
+            <!-- Descripción breve de la escuela de backend -->
             <p><strong>Escuela de Backend:</strong> Arquitecturas escalables con Java, Python y Node.js.</p>
+            <!-- Descripción breve de la escuela de datos -->
             <p><strong>Escuela de Datos:</strong> Procesamiento de información y visualización efectiva.</p>
         </div>
     </section>
 
     <!-- Sección de empresas con tabla de beneficios -->
-    <section class="enterprise" id="empresas">
-        <h2 class="section-title">Empresas</h2>
-        <p class="section-description">Programas corporativos adaptados a equipos y objetivos de negocio.</p>
-        <table class="enterprise-table">
+    <section class="seccion-empresas" id="empresas">
+        <h2 class="titulo-seccion">Empresas</h2>
+        <p class="descripcion-seccion">Programas corporativos adaptados a equipos y objetivos de negocio.</p>
+        <!-- Tabla con los servicios clave para empresas -->
+        <table class="tabla-empresas">
+            <!-- Encabezados de la tabla de servicios -->
             <thead>
                 <tr>
                     <th>Servicio</th>
